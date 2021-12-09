@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.inputClass {
+  margin-left: 20px;
+  background-color: pink;
+  border-radius: 5px;
+  font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todoTitle {
+  margin-left: 20px;
+  color: brown;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.addButton {
+  margin-left: 10px;
+  background-color: green;
+  font-size: 20px;
+  border-radius: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.deleteButton {
+  margin-left: 10px;
+  background-color:royalblue;
+  color: aliceblue;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .liClass {
+  color: red;
+} */
+
+.deleteAllButton {
+  margin-left: 10px;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.doneClass {
+  margin-left: 10px;
+  background-color:forestgreen;
+  border-radius: 5px;
+  color: white;
 }
